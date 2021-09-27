@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.center {
+    background-image: url(./dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    background-size: cover;
+    background-position: center bottom;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.second-row {
+  justify-content: end;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 60px rgba(255, 255, 255, 0.8), 0 0 30px rgba(0, 0, 0, 0.9);
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  font-size: x-large;
+}
+
+.input-container:not(:last-child) .input-field {
+  margin-right: 16px;
+}
+
+.input-label {
+  background-color: #dc0000;
+  padding: 10px;
+  line-height: 1;
+  color: white;
+}
+
+.input-field {
+  padding: 8px 16px;
+}
+
+#from-to {
+  border: 1px solid white;
+}
+
+.button {
+  border: 1px solid #dc0000;
+  background-color: #dc0000;
+  margin-right: 16px;
+  padding: 8px 16px;
+  color: white;
+  transition: 0.4s;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
+}
+
+.surprise-button {
+  background-color: rgba(255, 255, 255, 0.774);
+  color: #dc0000;
+}
