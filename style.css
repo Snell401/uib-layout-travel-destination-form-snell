@@ -72,11 +72,15 @@ h1 {
 }
 
 .button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-3px);
   cursor: pointer;
 }
 
 .surprise-button {
   background-color: rgba(255, 255, 255, 0.774);
   color: #dc0000;
+}
+
+.surprise-button:hover {
+  background-color: rgb(255, 255, 255);
 }
